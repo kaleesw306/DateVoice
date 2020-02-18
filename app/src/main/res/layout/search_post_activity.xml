@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="180dp">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="10dp">
+
+            <TableLayout
+                android:layout_width="70dp"
+                android:layout_height="5dp"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="15dp"
+                android:background="#000000"></TableLayout>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/online_chat"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:textColor="#000000"
+                android:layout_marginStart="53dp"
+                android:text="For You" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="150dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/gaming"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Gaming"
+                android:textColor="#000000"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="53dp"
+                android:layout_height="wrap_content" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="150dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/food"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Food"
+                android:textColor="#000000"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="53dp"
+                android:layout_height="wrap_content" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="150dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tv"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="TV  Movies"
+                android:textColor="#000000"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="53dp"
+                android:layout_height="wrap_content" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="150dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/tech"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Science Tech"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="53dp"
+                android:textColor="#000000"
+                android:layout_height="wrap_content" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="150dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/animals"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Animals"
+                android:textColor="#000000"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="53dp"
+                android:layout_height="wrap_content" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="150dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/travel"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Travel"
+                android:textColor="#000000"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="53dp"
+                android:layout_height="wrap_content" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="150dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/style"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Style"
+                android:textColor="#000000"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="53dp"
+                android:layout_height="wrap_content" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="150dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/music"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Music"
+                android:textColor="#000000"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="53dp"
+                android:layout_height="wrap_content" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="150dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/comics"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="comics"
+                android:textColor="#000000"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="53dp"
+                android:layout_height="wrap_content" />
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="150dp">
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/sports"
+                android:gravity="center" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Sports"
+                android:textColor="#000000"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="53dp"
+                android:layout_height="wrap_content" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    </HorizontalScrollView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Recommended For You"
+        android:layout_height="wrap_content" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/post_search_recycle"
+        android:layout_height="match_parent"></androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

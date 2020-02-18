@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profileimage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="left"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="34dp"
+            android:src="@drawable/love_kiss"
+            app:civ_border_color="#000000"
+            app:civ_border_overlay="false"
+            app:civ_border_width="0.2dp" />
+
+        <TextView
+            android:id="@+id/user_name_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="98dp"
+            android:layout_marginTop="41dp"
+            android:text="UserName"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_name_id"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/date_id"
+        android:text="NewYork,America" />
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/storyid"
+        android:layout_width="match_parent"
+        android:layout_height="591dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"
+        android:src="@drawable/love_kiss" />
+
+
+    <Button
+        android:layout_width="15dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="45dp"
+        android:id="@+id/menu_story"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="21dp"
+        android:background="@drawable/ic_action_overflow_black" />
+
+    <com.like.LikeButton
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="710dp"
+        android:id="@+id/like_button"
+        app:icon_type="heart"></com.like.LikeButton>
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="692dp"
+        android:layout_toEndOf="@+id/date_id"
+        android:background="@drawable/comment_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="770dp"
+        android:text="32 likes"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/caption_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="790dp"
+        android:text="#We design and develop robust mobile appication by highlights on small details,which will play an enormous role in user experience"
+        android:textColor="#000000" />
+    </RelativeLayout>
+

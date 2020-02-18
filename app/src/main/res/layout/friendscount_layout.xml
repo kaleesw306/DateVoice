@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#000000"
+            app:title="DateVoice"
+            app:subtitle="Enjoy Your Date"
+            app:popupTheme="@style/AppTheme.NoActionBar" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="28dp"
+                    android:text="DateVoice"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="118dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Enjoy Your Date"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8dp" />
+
+                <Button
+                    android:id="@+id/escape_id"
+                    android:layout_width="45dp"
+                    android:layout_height="40dp"
+
+                    android:background="@drawable/ic_chevron_left"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                   />
+                <Button
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="18dp"
+                    android:background="@drawable/ic_action_overflow" />
+
+
+            </RelativeLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <SearchView
+        android:layout_width="550dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:queryHint="Search"
+        android:id="@+id/search_friends"
+        android:drawableLeft="@drawable/ic_search"
+        android:background="@drawable/searchbar"
+        />
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/message_list_id"
+        android:dividerHeight="2dp"
+        android:headerDividersEnabled="false"
+        android:divider="#ffffff"
+        android:layout_height="match_parent"></ListView>
+
+
+</LinearLayout>

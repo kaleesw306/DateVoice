@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+  android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="19dp"
+        android:background="@drawable/chat_res"
+        app:cardBackgroundColor="#000000"
+        android:id="@+id/card_id"
+        app:cardCornerRadius="35dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/cardview55"
+            android:layout_alignTop="@+id/card_id">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="184dp"
+                android:layout_marginTop="4dp"
+                android:text="You"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/playbutton_black"
+                android:layout_width="30dp"
+
+                android:layout_height="35dp"
+
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="27dp"
+                android:background="@drawable/ic_action_playback_play" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/you_id1"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="7dp"
+                android:src="@drawable/love_kiss"
+                app:civ_border_width="0.5dp"
+                app:civ_border_color="#FFFFFF" />
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_id1"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="292dp"
+        android:background="#FFFFFF"
+        app:cardBackgroundColor="#FFFFFF"
+        app:cardCornerRadius="35dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="68dp"
+                android:id="@+id/text_name_id"
+                android:textColor="#000000" />
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="35dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="24dp"
+                android:id="@+id/playbutton_white"
+                android:background="@drawable/ic_action_playback_play_black" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/you_id"
+                android:layout_width="65dp"
+                app:civ_border_width="0.5dp"
+                android:layout_height="58dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="227dp"
+                android:src="@drawable/love_kiss"
+                app:civ_border_color="#000000" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/white_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/card_id"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="119dp"
+        android:layout_marginEnd="428dp"
+        android:text="22 Nov 2019 21:48:17"
+        android:textColor="#000000"
+        android:textSize="9dp" />
+
+    <ImageView
+        android:layout_width="19dp"
+        android:layout_height="15dp"
+
+        android:layout_alignStart="@+id/black_date"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="144dp"
+        android:src="@drawable/ic_done_all" />
+
+    <TextView
+        android:id="@+id/black_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/card_id"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="119dp"
+        android:layout_marginEnd="37dp"
+        android:text="22 Nov 2019 21:48:17"
+        android:textColor="#000000"
+        android:textSize="9dp" />
+</RelativeLayout>

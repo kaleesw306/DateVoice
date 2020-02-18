@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="#000000"
+            app:title="DateVoice"
+            app:subtitle="Enjoy Your Date"
+            app:popupTheme="@style/AppTheme.NoActionBar" >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="28dp"
+                    android:text="DateVoice"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_below="@+id/escape_id"
+                    android:layout_marginStart="93dp"
+                    android:layout_marginTop="-9dp"
+                    android:text="Enjoy Your Date"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8dp" />
+
+                <Button
+                    android:id="@+id/escape_id"
+                    android:layout_width="45dp"
+                    android:layout_height="40dp"
+
+                    android:background="@drawable/ic_chevron_left"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                     />
+
+
+            </RelativeLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="158dp"
+        android:layout_height="131dp"
+        android:id="@+id/profile_id_profile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="101dp"
+        android:src="@drawable/love_kiss"
+        app:civ_border_color="#000000"
+        app:civ_border_width="0.5dp" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="258dp"
+        android:src="@drawable/ic_person_outline" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="273dp"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="154dp"
+        android:layout_height="23dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="304dp"
+        android:text="Kaleeswaran D"
+        android:textColor="#000000"
+        android:textSize="19dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="337dp"
+        android:text="This is your name.This is will be visible Your Datevoice App" />
+
+    <TableRow
+        android:layout_width="330dp"
+        android:layout_height="1dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="396dp"
+        android:background="#000000">
+
+    </TableRow>
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="412dp"
+        android:src="@drawable/ic_help" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="416dp"
+        android:text="Status" />
+
+    <TextView
+        android:id="@+id/profile_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="449dp"
+        android:text="Hey there i am using DateVoice"
+        android:textColor="#000000"
+        android:textSize="18dp" />
+
+    <TableRow
+        android:layout_width="330dp"
+        android:layout_height="1dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="490dp"
+        android:layout_marginBottom="299dp"
+        android:background="#000000">
+
+    </TableRow>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="157dp"
+        android:layout_marginBottom="17dp"
+        android:text="DateVoice" />
+</RelativeLayout>

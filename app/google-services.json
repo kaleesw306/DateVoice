@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "464780147900",
+    "firebase_url": "https://datevoice-860ae.firebaseio.com",
+    "project_id": "datevoice-860ae",
+    "storage_bucket": "datevoice-860ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464780147900:android:7559508bfcd48808",
+        "android_client_info": {
+          "package_name": "com.example.datevoice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464780147900-j4epreb7nenjeis7ddlpat4c5e3t5lit.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.datevoice",
+            "certificate_hash": "513839b0484398fcbf450e146ebe607bf84baef8"
+          }
+        },
+        {
+          "client_id": "464780147900-uivrcn2jbh2uk2vucvhptugrkvuo5c9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4DIV1DNP_E4QWYJbaDOKFq7WqvmGB6DM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464780147900-uivrcn2jbh2uk2vucvhptugrkvuo5c9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

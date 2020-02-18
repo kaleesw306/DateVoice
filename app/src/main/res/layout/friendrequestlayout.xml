@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+ android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+
+            android:background="#000000"
+            app:popupTheme="@style/AppTheme.NoActionBar"
+            app:subtitle="Enjoy Your Date"
+            app:title="DateVoice">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="80dp"
+                    android:layout_marginTop="28dp"
+                    android:text="DateVoice"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="94dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:text="Enjoy Your Date"
+                    android:textColor="#FFFFFF"
+                    android:textSize="8dp" />
+
+                <Button
+                    android:id="@+id/escape_id"
+                    android:layout_width="45dp"
+                    android:layout_height="40dp"
+
+                    android:background="@drawable/ic_chevron_left"
+
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                  />
+
+
+            </RelativeLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/anotheruserphoto"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="132dp"
+        android:src="@drawable/fourth"
+        app:civ_border_color="#FFFFFF"
+        app:civ_border_width="1dp" />
+
+
+    <TextView
+        android:id="@+id/anotherusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/anotheruserstatus"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="150dp"
+        android:text="Kaleeswaran D"
+        android:textColor="#000000"
+        android:textSize="10dp" />
+
+    <TextView
+        android:id="@+id/anotheruserstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="178dp"
+        android:layout_toEndOf="@+id/anotheruserphoto"
+        android:text="Hey there I am using DateVoice"
+        android:textColor="#000000"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/currentstatebutton"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+
+        android:layout_alignTop="@+id/anotheruserphoto"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="11dp"
+        android:background="@drawable/animatebutt"
+        android:text="Sent Request"
+        android:textColor="#FFFFFF"
+        android:textSize="17dp" />
+
+    <TableRow
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="252dp"
+        android:background="#000000"></TableRow>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="292dp"
+        android:text="This page is doesn't show content of any account" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/friends_recycler"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="218dp"></androidx.recyclerview.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:text="DateVoice" />
+
+</RelativeLayout>
